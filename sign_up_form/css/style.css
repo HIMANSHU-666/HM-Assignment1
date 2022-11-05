@@ -1,0 +1,58 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(248, 218, 218);
+}
+.inline{
+    background-color: rgb(145, 125, 125);
+    width: 50%;
+    border-radius: 30px;
+}
+label{
+    font-size: 20px;
+    padding: auto;
+    text-align: left;
+}
+.input{
+    width: 25%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 10px;
+    
+}
+button{
+    background-color: rgb(197, 14, 14);
+    color: white;
+    font-size: 15px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-style: dotted black 2px;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 25px;
+}
+button:hover{
+    background-color: rgb(231, 219, 219);
+    color: black;
+    border-style: dashed black 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: oblique;
+    transition: 0.5s;
+
+}
+fieldset{
+    padding: 100px;
+}
+#country_code{
+    width: 70px;
+}
+#lg{
+    color: red;
+    font-weight: bolder;
+    font-size: 50px;
+    font-style: oblique;
+    text-decoration: underline;
+}
